@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+
+	<link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap" rel="stylesheet">
+	<style>
+
+		*{
+			margin: 0px;
+			padding: 0px;
+			box-sizing: border-box;
+		}
+
+		body{
+			background-color: #ffffff;
+			font-family: 'Titillium Web', sans-serif;
+		}
+
+		.content{
+			width: 30%;
+			height: 400px;
+			margin: 130px auto;
+			border: 2px solid #000;
+			background: #fff;
+		}
+
+		.content h1{
+			text-align: center;
+			padding: 15px 0px 30px 0px;
+		}
+
+		.content .form{
+			width: 80%;
+			padding: 0px;
+			margin: auto;
+			font-size: 16px;
+		}
+
+		.content .form .item{
+			width: 100%;
+			margin: auto;
+		}
+
+		.content .form .item a{
+			color: tomato;
+			text-decoration: none;
+		}
+
+		.content .form .item input{
+			width: 100%;
+			padding: 5px 3px;
+			border: none;
+			background: #ffddcc;
+		}
+
+		.content .form .item input:hover{
+			width: 100%;
+			padding: 3px;
+			border: none;
+			border-bottom: 2px solid tomato;
+			transition: .4s;
+		}
+
+		.content .form input{
+			padding: 5px 10px;
+			border: 1px solid #000;
+			background: #fff;
+		}
+
+		.content .form input:hover{
+			padding: 5px 10px;
+			border: 2px solid tomato;
+		}
+
+	</style>
+
+</head>
+<body>
+	<div class="content">
+		<h1>Login Form</h1>
+		<div class="form">
+			<form>
+				<label>Username</label><br>
+				<div class="item">
+					<input type="text" placeholder="Username" required=""><br><br>
+				</div>
+				
+				<label>Password</label><br>
+				<div class="item">
+					<input type="password" placeholder="Password" required=""><br><br>
+				</div>
+				
+				<input type="submit" value="Login"><br><br>
+
+				<div class="item">
+					<a href="#">Forget Password</a>
+				</div><br>
+
+				<div class="item">
+					<p>Don't have any account? <a href="#">Sign in</a></p>
+				</div>
+			</form>
+		</div>
+	</div>
+
+</body>
+</html>
